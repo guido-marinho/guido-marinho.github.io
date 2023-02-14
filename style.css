@@ -1,0 +1,29 @@
+/*define a cor do site*/
+body {
+    background-color: rgb(216, 215, 204);
+}
+/*define tamanho, fonte e posição do h1 */
+.perfil h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+/* define tamanho e posição da foto de perfil*/
+.perfil img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+/* define caracteristicas do sumario e paragrafos*/
+.informacoes {
+    text-align: center;
+    margin: 3%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+/*define informações particulares do sumario*/
+.informacoes summary {
+    text-decoration: underline;
+    font-style:oblique;
+}
