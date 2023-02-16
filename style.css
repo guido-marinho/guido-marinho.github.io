@@ -23,6 +23,10 @@ body ul {
     margin: auto;
     display: block;
 }
+.contato {
+    display: flex;
+    justify-content: center;
+}
 /* .sobre-mim  {
     background-color: gray;
     margin: 2%;
