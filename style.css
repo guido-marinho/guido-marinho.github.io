@@ -1,10 +1,15 @@
 /*define a cor do site*/
 body {
     background-color: rgb(216, 215, 204);
+
 }
 body div {
     text-align: center;
     
+}
+body ul {
+    text-align: center;
+    list-style: none;
 }
 /*define tamanho, fonte e posição do h1 */
 .perfil h1 {
@@ -18,7 +23,7 @@ body div {
     margin: auto;
     display: block;
 }
-.sobre-mim  {
+/* .sobre-mim  {
     background-color: gray;
     margin: 2%;
     margin-left: 650px;
@@ -40,5 +45,5 @@ body div {
 .git-hub img {
     width: 100px;
     margin-right: 400px;
-}
+} */
 
