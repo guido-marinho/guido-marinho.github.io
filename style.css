@@ -2,6 +2,10 @@
 body {
     background-color: rgb(216, 215, 204);
 }
+body div {
+    text-align: center;
+    
+}
 /*define tamanho, fonte e posição do h1 */
 .perfil h1 {
     font-size: 50px;
@@ -14,16 +18,27 @@ body {
     margin: auto;
     display: block;
 }
-/* define caracteristicas do sumario e paragrafos*/
-.informacoes {
-    text-align: center;
-    margin: 3%;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
+.sobre-mim  {
+    background-color: gray;
+    margin: 2%;
+    margin-left: 650px;
+    width: 200px;
 }
-/*define informações particulares do sumario*/
-.informacoes summary {
-    text-decoration: underline;
-    font-style:oblique;
+.habilidades {
+    background-color: gray;
+    margin: 5%;
+    margin-left: 1100px;
+    
+    width: 200px;
+    display: block;
 }
+
+.linkedin img {
+    width: 100px;
+    margin-left: 400px;
+}
+.git-hub img {
+    width: 100px;
+    margin-right: 400px;
+}
+
