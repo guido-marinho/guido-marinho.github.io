@@ -1,13 +1,11 @@
 /* define os padrões do header como cor e posição */
 .perfil {
-    background-color: ;
     display: flexbox;
     text-align: center;
 }
 /* define os padrões do h1 do header */
 .perfil h1 {
     justify-content: center;
-    background-color: green;
 }
 /* define tamanho da foto de perfil */
 .perfil img {
@@ -17,9 +15,8 @@
 .sobre-mim {
     display: flex;
     justify-content: center;
-    background-color: aqua;
     text-align: center;
-    
+    padding: 40px;
 }
 /* define quebre de list style para as listas nao ordenadas do aticle sobre mim */
 .sobre-mim ul {
@@ -27,9 +24,9 @@
 }
 /* define os padroões de articles habilidades */
 .habilidades {
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
+    padding: 40px;
 }
 /* define quebra de list style e padrão do texto das listas de hanilidades */
 .habilidades ul {
@@ -40,6 +37,29 @@
 .contato {
     display: flex;
     justify-content: center;
+    padding: 80px;
+}
+nav {
+    width: 300px;
+    padding: 1%;
+}
+.linkedin {
+    width: 150px;
+}
+.linkedin img {
+    width: 130px;
+}
+.email {
+    width: 10px;
+}
+.email img {
+    height: 33px;
+}
+.git-hub {
+    width: 100px;
+}
+.git-hub img {
+    width: 110px;
 }
 /* define padrões para o footer */
 .rodape {
