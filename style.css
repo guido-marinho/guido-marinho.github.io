@@ -1,53 +1,55 @@
-/*define a cor do site*/
-body {
-    background-color: rgb(216, 215, 204);
-
+/* define os padrões do header como cor e posição */
+.perfil {
+    background-color: ;
+    display: flexbox;
+    text-align: center;
 }
-body div {
+/* define os padrões do h1 do header */
+.perfil h1 {
+    justify-content: center;
+    background-color: green;
+}
+/* define tamanho da foto de perfil */
+.perfil img {
+   width: 300px;
+}
+/* difene padrões do artigo sobre mim */
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
     text-align: center;
     
 }
-body ul {
-    text-align: center;
+/* define quebre de list style para as listas nao ordenadas do aticle sobre mim */
+.sobre-mim ul {
     list-style: none;
 }
-/*define tamanho, fonte e posição do h1 */
-.perfil h1 {
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* define os padroões de articles habilidades */
+.habilidades {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+/* define quebra de list style e padrão do texto das listas de hanilidades */
+.habilidades ul {
+    list-style: none;
     text-align: center;
 }
-/* define tamanho e posição da foto de perfil*/
-.perfil img {
-    width: 200px;
-    margin: auto;
-    display: block;
-}
+/* define posição do aside contato */
 .contato {
     display: flex;
     justify-content: center;
 }
-/* .sobre-mim  {
-    background-color: gray;
-    margin: 2%;
-    margin-left: 650px;
-    width: 200px;
-}
-.habilidades {
-    background-color: gray;
-    margin: 5%;
-    margin-left: 1100px;
-    
-    width: 200px;
-    display: block;
+/* define padrões para o footer */
+.rodape {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
-.linkedin img {
-    width: 100px;
-    margin-left: 400px;
-}
-.git-hub img {
-    width: 100px;
-    margin-right: 400px;
-} */
+
+
+
+
 
