@@ -1,75 +1,89 @@
-/* define os padrões do header como cor e posição */
-.perfil {
-    display: flexbox;
-    text-align: center;
+body {
+  background-color: azure;
 }
-/* define os padrões do h1 do header */
+
+header {
+  max-width: 100%;
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .perfil h1 {
-    justify-content: center;
+  font-size: 150px;
 }
-/* define tamanho da foto de perfil */
-.perfil img {
-   width: 300px;
+
+.perfil p {
+  font-size: 50px;
+  margin-top: 0%;
 }
-/* difene padrões do artigo sobre mim */
-.sobre-mim {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 40px;
+
+.perfil hr {
+    width: 70%;
+    margin-bottom: 5%;
+    border: solid 1px;
 }
-/* define quebre de list style para as listas nao ordenadas do aticle sobre mim */
-.sobre-mim ul {
-    list-style: none;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-/* define os padroões de articles habilidades */
-.habilidades {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
+
+details:hover {
+  cursor: pointer;
 }
-/* define quebra de list style e padrão do texto das listas de hanilidades */
-.habilidades ul {
-    list-style: none;
-    text-align: center;
+
+.sobre-mim details,
+summary,
+strong,
+ul,
+li {
+  list-style: none;
+  text-align: center;
 }
-/* define posição do aside contato */
-.contato {
-    display: flex;
-    justify-content: center;
-    padding: 80px;
+
+.habilidades details,
+summary,
+strong,
+ul,
+li {
+  list-style: none;
+  text-align: center;
 }
-nav {
-    width: 300px;
-    padding: 1%;
+
+aside {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 14%;
 }
-.linkedin {
-    width: 150px;
-}
-.linkedin img {
-    width: 130px;
-}
-.email {
-    width: 10px;
-}
-.email img {
-    height: 33px;
-}
+
 .git-hub {
-    width: 100px;
+  width: 103px;
 }
+
 .git-hub img {
-    width: 110px;
-}
-/* define padrões para o footer */
-.rodape {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+  width: 95px;
 }
 
+.email {
+  width: 35px;
+}
 
+.email img {
+  width: 100px;
+  height: 29px;
+}
 
+.linkedin img {
+  width: 115px;
+  border-radius: 7%;
+}
 
-
-
+footer {
+  text-align: center;
+  margin-top: 1%;
+}
