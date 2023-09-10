@@ -1,13 +1,12 @@
 .cover-page {
   width: 50%;
   margin: 50px auto 0;
-  border: 1px solid #ccc;
+
 }
 
 .profile-container {
   width: 50%;
   margin: 0 auto;
-  border: 1px solid #ccc;
 }
 
 .profile {
@@ -52,4 +51,115 @@
   display: flex;
   justify-content: space-around;
   margin: 10px 0;
+}
+
+/* medida para laptops de 1000px até 1500px */
+@media (max-width: 1500px) {
+  .profile-image {
+    width: 6rem;
+    height: 6rem;
+    top: -50px;
+    left: 30px;
+  }
+
+  .profile-buttons {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+
+  .profile-name {
+    font-size: 1.2rem;
+  }
+
+  .profile-about {
+    font-size: 0.7rem;
+  }
+
+  .profile-icons {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+  }
+}
+
+/* medidas para tablets de 768px até 1000px */
+@media (max-width: 1000px) {
+  .profile-image {
+    width: 5rem;
+    height: 5rem;
+    top: -40px;
+    left: 20px;
+  }
+
+  .profile-buttons {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .profile-buttons button {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+  }
+
+  .profile-name {
+    font-size: 1rem;
+  }
+
+  .profile-about {
+    font-size: 0.75rem;
+  }
+
+  .profile-icons {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+}
+
+/* medidas para dispositivos moveis abaixo de 768 px*/
+@media (max-width: 768px) {
+  .profile-image {
+    width: 4rem;
+    height: 4rem;
+    top: -30px;
+    left: 20px;
+  }
+
+  .profile-buttons {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .profile-buttons button {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+  }
+
+  .profile-name {
+    font-size: 1rem;
+  }
+
+  .profile-about {
+    font-size: 0.75rem;
+  }
+
+  .profile-icons {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
 }
