@@ -1,0 +1,55 @@
+.cover-page {
+  width: 50%;
+  margin: 50px auto 0;
+  border: 1px solid #ccc;
+}
+
+.profile-container {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* preciso deixar responsiva */
+.profile-image {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  position: absolute;
+  top: -75px;
+  left: 30px;
+}
+
+.profile-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-name {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 10px 15px;
+}
+
+.profile-about {
+  font-size: 1.25rem;
+  margin: 5px 20px;
+}
+
+.profile-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
