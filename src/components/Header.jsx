@@ -10,19 +10,27 @@ export default function Header() {
         {/* depois mudar para uma animação */}
         <img src={ cover } alt="cover" />
       </div>
+
       <div className='profile-container'>
-        <div className='profile'>
+        <div className='profile-level-1'>
           <img src={ profile } alt="profile image" className='profile-image' />
           <div className='profile-buttons'>
-            <button>menssage</button>
-            <button>follow</button>
+            <button className=' message-btn'>
+              mail
+            </button>
+            <button 
+              className='follow-btn'>
+                follow
+            </button>
           </div>
         </div>
-        <h1 className='profile-name'>Guilherme Gatti Marinho</h1>
-        <div className='profile-about'>
-          <p>Web Developer Full Stack</p>
+
+        <div className='profile-level-2'>
+          <h1 className='profile-name'>Guilherme Gatti Marinho</h1>
+          <p className='profile-about'>Web Developer Full Stack</p>
         </div>
-        <div className="profile-icons-container ">
+        
+        <div className="profile-level-3">
 
           <p className='icon'> 
             <span className="material-symbols-outlined icon">
@@ -51,7 +59,9 @@ export default function Header() {
             </span>
             Joined Feb 2023
           </p>
+
         </div>
+        
       </div>
     </>
   );

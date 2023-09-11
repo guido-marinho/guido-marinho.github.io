@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
-import Main from '../components/Main';
+// import Main from '../components/Main';
 
 export default function Home() {
   return (
@@ -8,9 +8,9 @@ export default function Home() {
       <header className='header-home'>
         <Header />
       </header>
-      <main>
+      {/* <main>
         <Main />
-      </main>
+      </main> */}
     </>
   );
 }
