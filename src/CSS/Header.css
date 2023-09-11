@@ -70,7 +70,7 @@
   display: flex;
   color: grey;
   justify-content: space-evenly;
-  margin: 10px 0;
+  margin: 50px 0;
   height: 30px;
 }
 
@@ -118,6 +118,73 @@
     top: 0;
     left: 0;
     margin-bottom: 10px;
+    width: 6rem;
+    height: 6em;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+  }
+  
+  .message-btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .follow-btn {
+  border-radius: 20px;
+  width: 60px;
+  height: 30px;
+  }
+
+  .profile-buttons {
+    justify-content: space-around;
+  }
+
+  .profile-level-2 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -10px;
+  }
+
+  .profile-name {
+    font-size: 1.25rem;
+  }
+
+  .profile-about {
+    font-size: 0.75rem;
+  }
+
+  .profile-level-3 {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+
+/* de 641 px até 1007 px */
+@media (min-width: 641px) and (max-width: 1007px) {
+  .cover-page {
+    width: 80%;
+    margin: 5px auto;
+  }
+
+  .profile-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .profile-level-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    width: 7.5rem;
+    height: 7.5rem;
   }
 
   .profile-buttons {
@@ -135,4 +202,43 @@
   }
 }
 
-/* de 641 px até 1007 px */
+/* de 1008 px até 1280 px */
+@media (min-width: 1008px) and (max-width: 1280px) {
+  .cover-page {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .profile-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .profile-level-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+
+  .profile-buttons {
+    justify-content: space-around;
+  }
+
+  .profile-level-2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .profile-level-3 {
+    flex-direction: row;
+    align-items: center;
+  }
+}
