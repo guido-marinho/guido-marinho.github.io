@@ -8,6 +8,19 @@ import profile from '../images/profile.png';
 import verifed from '../images/verifed.png';
 
 export default function Header() {
+
+  // ao clicar no button linkedin, deve abrir meu perfil no linkedin
+  const handleLinkedin = () => {
+    const link = 'https://www.linkedin.com/in/guilhermegattimarinho/';
+    window.open(link, '_blank');
+  };
+
+  //  ao clicar no button  message, deve abrir meu wpp
+  const handleWpp = () => {
+    const link = 'https://wa.me/+5535999423364';
+    window.open(link, '_blank');
+  };
+  
   return (
     <>
       <div className='cover-page'>
@@ -18,11 +31,13 @@ export default function Header() {
         <div className='profile-level-1'>
           <img src={ profile } alt="profile image" className='profile-image' />
           <div className='profile-buttons'>
-            <button className=' message-btn'>
+            <button className=' message-btn'
+              onClick={ handleWpp }
+            >
               <img src={ message } alt="message-icon" />
             </button>
             <button 
-              className='follow-btn'>
+              className='follow-btn' onClick={ handleLinkedin }>
               <img src={ linkedin } alt="linkedin-icon"  className='follow-img'/>
             </button>
           </div>
