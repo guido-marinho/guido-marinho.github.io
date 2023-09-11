@@ -2,6 +2,7 @@ import React from 'react';
 import '../CSS/Header.css';
 import cover from '../images/cover.png';
 import profile from '../images/profile.png';
+import verifed from '../images/verifed.png';
 
 export default function Header() {
   return (
@@ -26,7 +27,10 @@ export default function Header() {
         </div>
 
         <div className='profile-level-2'>
-          <h1 className='profile-name'>Guilherme Gatti Marinho</h1>
+          <div className="name-container">
+            <h1 className='profile-name'>Guilherme Gatti Marinho</h1>
+            <img src={ verifed } alt="verify-icon" className='verifed-icon'/>
+          </div>
           <p className='profile-about'>Web Developer Full Stack</p>
         </div>
         
