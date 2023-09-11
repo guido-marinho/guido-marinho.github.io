@@ -42,14 +42,14 @@ export default function Header() {
             <span className="material-symbols-outlined icon">
               cake
             </span>
-            birthday
+            July 15th
           </p>
 
           <p className='icon'>
             <span className="material-symbols-outlined icon">
               calendar_month
             </span>
-            joined
+            Joined Feb 2023
           </p>
         </div>
       </div>
