@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600&display=swap');
+
 /* adicione variaveis para o css aqui */
 /*
+
+/* reset  */
+
   1. Use a more-intuitive box-sizing model.
 */
 *, *::before, *::after {
@@ -26,7 +31,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: #1c1c1c;
-  color: #ddd
+  color: #ddd;
+  font-family: 'Signika', sans-serif;
 }
 /*
   6. Improve media defaults
