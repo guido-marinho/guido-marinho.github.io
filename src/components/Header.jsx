@@ -1,6 +1,9 @@
 import React from 'react';
 import '../CSS/Header.css';
+
 import cover from '../images/cover.png';
+import linkedin from '../images/linkedin.png';
+import message from '../images/message.png';
 import profile from '../images/profile.png';
 import verifed from '../images/verifed.png';
 
@@ -8,7 +11,6 @@ export default function Header() {
   return (
     <>
       <div className='cover-page'>
-        {/* depois mudar para uma animação */}
         <img src={ cover } alt="cover" />
       </div>
 
@@ -17,11 +19,11 @@ export default function Header() {
           <img src={ profile } alt="profile image" className='profile-image' />
           <div className='profile-buttons'>
             <button className=' message-btn'>
-              mail
+              <img src={ message } alt="message-icon" />
             </button>
             <button 
               className='follow-btn'>
-                follow
+              <img src={ linkedin } alt="linkedin-icon"  className='follow-img'/>
             </button>
           </div>
         </div>
