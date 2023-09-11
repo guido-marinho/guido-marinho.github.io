@@ -46,14 +46,36 @@
   margin: 5px 20px;
 }
 
-.profile-icons {
-  width: 100%;
+.profile-icons-container {
   display: flex;
-  justify-content: space-around;
+  color: grey;
+  justify-content: space-evenly;
   margin: 10px 0;
+  height: 30px;
 }
 
-/* medida para laptops de 1000px até 1500px */
+.icon {
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 300,
+  'GRAD' 100,
+  'opsz' 30;
+  height: 10px;
+  width: 10px;
+}
+
+
+/* medida para dispositivos de 1000px até 1500px */
 @media (max-width: 1500px) {
   .profile-image {
     width: 6rem;
@@ -84,7 +106,7 @@
   }
 }
 
-/* medidas para tablets de 768px até 1000px */
+/* medidas para dispositivos de 768px até 1000px */
 @media (max-width: 1000px) {
   .profile-image {
     width: 5rem;
@@ -126,6 +148,12 @@
 
 /* medidas para dispositivos moveis abaixo de 768 px*/
 @media (max-width: 768px) {
+
+  .cover-page {
+    width: 100%;
+    margin: 50px auto 0;
+  }
+
   .profile-image {
     width: 4rem;
     height: 4rem;

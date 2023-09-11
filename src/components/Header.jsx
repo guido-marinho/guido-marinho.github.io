@@ -22,7 +22,36 @@ export default function Header() {
         <div className='profile-about'>
           <p>Web Developer Full Stack</p>
         </div>
-        <span  className='profile-icons'> icon1: Availabe -  icon2: links - icon3: birthday - icon4: joined</span>
+        <div className="profile-icons-container ">
+
+          <p className='icon'> 
+            <span className="material-symbols-outlined icon">
+              business_center
+            </span>
+            Availabe
+          </p>
+
+          <p className='icon'>
+            <span className="material-symbols-outlined icon">
+              link
+            </span>
+            links
+          </p>
+          
+          <p className='icon'>
+            <span className="material-symbols-outlined icon">
+              cake
+            </span>
+            birthday
+          </p>
+
+          <p className='icon'>
+            <span className="material-symbols-outlined icon">
+              calendar_month
+            </span>
+            joined
+          </p>
+        </div>
       </div>
     </>
   );
