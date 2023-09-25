@@ -35,6 +35,7 @@ export default function FormEmail() {
       <h1 className="form-title">Contato</h1>
 
       <form className="form-email" onSubmit={ handleSubmit }>
+        <label className="label-name" htmlFor="name">Nome *</label>
         <input 
           className="input-name"
           type="text"
@@ -43,6 +44,7 @@ export default function FormEmail() {
           value={ name }
         />
         
+        <label className="label-email" htmlFor="email">Email *</label>
         <input 
           className="input-email"
           type="text"
@@ -51,6 +53,8 @@ export default function FormEmail() {
           value={email}
         />
 
+
+        <label className="label-message" htmlFor="message">Mensagem *</label>
         <textarea 
           className="textarea-message"
           placeholder="Digite sua mensagem..."
