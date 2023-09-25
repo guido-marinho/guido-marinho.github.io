@@ -66,7 +66,7 @@ export default function Header() {
               link
             </span>
             <Link to='/links' className='links'>
-            Contato
+            Links
             </Link>
           </p>
           

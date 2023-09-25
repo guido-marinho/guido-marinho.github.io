@@ -1,5 +1,4 @@
 import React from 'react';
-import FormEmail from '../components/FormEmail.jsx';
 
 import '../CSS/Links.css';
 
@@ -25,9 +24,6 @@ export default function Links() {
           <img src={ youtube  } alt="whatsapp-icon" />
         </a>
       </nav>
-      <section>
-        <FormEmail />
-      </section>
     </>
   );
 }

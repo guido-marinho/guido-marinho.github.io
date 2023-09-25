@@ -40,7 +40,7 @@ export default function FormEmail() {
 
   return (
     <div className="form-container">
-      <h1 className="form-title">Entre em contato por E-Mail:</h1>
+
 
       <form className="form-email" onSubmit={ handleSubmit }>
         <label className="label-name" htmlFor="name">Nome <span className='required'>*</span></label>
