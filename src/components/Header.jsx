@@ -49,7 +49,7 @@ export default function Header() {
             <h1 className='profile-name'>Guilherme Gatti Marinho</h1>
             <img src={ verifed } alt="verify-icon" className='verifed-icon'/>
           </div>
-          <p className='profile-about'>Web Developer Full Stack</p>
+          <p className='profile-about'>Desenvolvedor Web  Full Stack</p>
         </div>
         
         <div className="profile-level-3">
@@ -58,15 +58,15 @@ export default function Header() {
             <span className="material-symbols-outlined icon">
               business_center
             </span>
-            Availabe
+            Disponível
           </p>
 
           <p className='icon'>
             <span className="material-symbols-outlined icon">
               link
             </span>
-            <Link to='/links' >
-            links
+            <Link to='/links' className='links'>
+            Contato
             </Link>
           </p>
           
@@ -74,7 +74,7 @@ export default function Header() {
             <span className="material-symbols-outlined icon">
               cake
             </span>
-            July 15th
+            Julho 15th
           </p>
 
           <p className='icon'>
