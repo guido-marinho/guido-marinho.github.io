@@ -10,6 +10,7 @@ import youtube from '../images/youtube.png';
 export default function Links() {
   return (
     <>
+    
       <nav className='nav-links'>
         <a href="https://wa.me/+5535999423364" target="_blank" rel="noopener noreferrer">
           <img src={ whatsapp } alt="whatsapp-icon" />

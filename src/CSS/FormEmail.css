@@ -12,11 +12,72 @@ textarea {
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    gap: 10px;
 }
 
 .form-email {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 10px;
+  margin: 10px 0;
+  width: 100%;
+
 }
+
+.form-email label {
+  align-self: center;
+}
+
+.form-email input, textarea  {
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid #CC0088;
+}
+
+.form-email input:focus {
+  outline: none;
+  border: 3px solid #660066;
+}
+
+.form-email input::placeholder {
+  color: #660066;
+}
+
+
+.form-email textarea:focus {
+  outline: none;
+  border: 3px solid #660066;
+}
+
+.form-email textarea::placeholder {
+  color: #660066;
+}
+
+.required {
+  color: red;
+}
+
+.submit-email-btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid #CC0088;
+  background-color: #CC0088;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+.submit-email-btn:hover {
+  background-color: #660066;
+  border: 3px solid #660066;
+}
+
+.submit-email-btn:disabled {
+  background-color: grey;
+  border: 3px solid grey;
+  cursor: not-allowed;
+}
+
