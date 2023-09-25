@@ -20,6 +20,7 @@ export default function Main() {
 
       
       <main className='main-home'>
+        
         <div className='header-main'>
           <Link to='/' className='links-main'>
             <h3
@@ -45,6 +46,7 @@ export default function Main() {
             </h3>
           </Link>
         </div>
+        
         {path === '/links' && <Links />}
         {/* {path === '/' && <Feed />} */}
         {/* {path === '/about' && <About />} */}
