@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../CSS/Header.css';
 
 import cover from '../images/cover.png';
@@ -64,7 +65,9 @@ export default function Header() {
             <span className="material-symbols-outlined icon">
               link
             </span>
+            <Link to='/links' >
             links
+            </Link>
           </p>
           
           <p className='icon'>

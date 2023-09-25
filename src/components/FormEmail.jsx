@@ -1,11 +1,11 @@
 import emailjs from '@emailjs/browser';
 import React, { useState } from 'react';
+import '../CSS/FormEmail.css';
 
 export default function FormEmail() {
   const [name, setName] = useState('');
   const [email, setEmail] =  useState('');
   const [message, setMessage] =  useState('');
-
 
   const handleSubmit = (event) => {
     event.preventDefault();

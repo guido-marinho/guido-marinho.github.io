@@ -6,6 +6,7 @@ export default function App() {
   return (
     <Routes>
       <Route exact path="/" element={<Home />} />
+      <Route exact path="/links" element={<Home />} />
     </Routes>
   );
 }
