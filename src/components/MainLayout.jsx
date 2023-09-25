@@ -11,6 +11,7 @@ import Header from './Header.jsx';
 export default function Main() {
   const path = useLocation().pathname;
 
+
   return (
     <>
       <header className='header-home'>
@@ -20,17 +21,28 @@ export default function Main() {
       
       <main className='main-home'>
         <div className='header-main'>
-          <Link to='/'>
-            <h3>Feed</h3>
+          <Link to='/' className='links-main'>
+            <h3
+              className={`h3-header-main ${path === '/' ? 'active' : ''}`}>
+              Feed</h3>
           </Link>
-          <Link to='/projects'>
-            <h3>Projetos</h3>
+          <Link to='/projects' className='links-main'>
+            <h3 
+              className={`h3-header-main ${path === '/projects' ? 'active' : ''}`}>
+                Projetos
+            </h3>
           </Link>
-          <Link to='/about'>
-            <h3>Sobre mim</h3>
+          <Link to='/about' className='links-main'>
+            <h3 
+              className={`h3-header-main ${path === '/about' ? 'active' : ''}`} >
+                Sobre mim
+            </h3>
           </Link>
-          <Link to='/contact'>
-            <h3>Contato</h3>
+          <Link to='/contact' className='links-main'>
+            <h3 
+              className={`h3-header-main ${path === '/contact' ? 'active' : ''}`}>
+              Contato
+            </h3>
           </Link>
         </div>
         {path === '/links' && <Links />}

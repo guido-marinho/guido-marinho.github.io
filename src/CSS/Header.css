@@ -186,19 +186,6 @@
   }
 }
 
-.links {
-  text-decoration: none;
-  color: inherit;
-}
-
-.links:hover {
-  text-decoration: underline;
-}
-
-.links:visited {
-  color: #CC0088;
-}
-
 /* de 641 px até 1007 px */
 @media (min-width: 641px) and (max-width: 1007px) {
   .cover-page {
@@ -323,4 +310,17 @@
     font-size: 1rem;
   }
 
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.links:visited {
+  color: grey;
 }
