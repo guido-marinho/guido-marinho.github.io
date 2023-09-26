@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 import '../CSS/MainLayout.css';
 
+import About from '../pages/About.jsx';
 import FormContact from '../pages/FormContact.jsx';
 import Links from '../pages/Links.jsx';
 import Header from './Header.jsx';
@@ -10,7 +11,6 @@ import Header from './Header.jsx';
 
 export default function Main() {
   const path = useLocation().pathname;
-
 
   return (
     <>
@@ -27,16 +27,16 @@ export default function Main() {
               className={`h3-header-main ${path === '/' ? 'active' : ''}`}>
               Feed</h3>
           </Link>
-          <Link to='/projects' className='links-main'>
-            <h3 
-              className={`h3-header-main ${path === '/projects' ? 'active' : ''}`}>
-                Projetos
-            </h3>
-          </Link>
           <Link to='/about' className='links-main'>
             <h3 
               className={`h3-header-main ${path === '/about' ? 'active' : ''}`} >
                 Sobre mim
+            </h3>
+          </Link>
+          <Link to='/projects' className='links-main'>
+            <h3 
+              className={`h3-header-main ${path === '/projects' ? 'active' : ''}`}>
+                Projetos
             </h3>
           </Link>
           <Link to='/contact' className='links-main'>
@@ -49,8 +49,8 @@ export default function Main() {
         
         {path === '/links' && <Links />}
         {/* {path === '/' && <Feed />} */}
-        {/* {path === '/about' && <About />} */}
         {/* {path === '/projects' && <Projects />} */}
+        {path === '/about' && <About />}
         {path === '/contact' && <FormContact />}
       </main>
     </>
