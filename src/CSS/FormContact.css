@@ -59,7 +59,7 @@
 }
 
 .required {
-  color: red;
+  color: var(--pink);
 }
 
 .submit-email-btn {

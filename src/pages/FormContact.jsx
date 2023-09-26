@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser';
 import React, { useState } from 'react';
-import '../CSS/FormEmail.css';
+import '../CSS/FormContact.css';
 
 export default function FormEmail() {
   const [name, setName] = useState('');
