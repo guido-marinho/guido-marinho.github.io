@@ -1,9 +1,10 @@
 import React from 'react';
+import '../CSS/About.css';
 
 export default function About() {
   return (
     <section className='about-container'>
-      <h2>Olá!</h2>
+      <h2>Olá! 👋</h2>
       <br />
       <p>
         Eu sou <strong>Guilherme</strong> (mas pode me chamar de &quot;Gui&quot;). Sou um desenvolvedor web apaixonado em dar vida a projetos e ideias através de código.
