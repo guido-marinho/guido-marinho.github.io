@@ -12,8 +12,8 @@
 
 /* reset  */
 
-  1. Use a more-intuitive box-sizing model.
-*/
+  /* 1. Use a more-intuitive box-sizing model. */
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -61,15 +61,49 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-textarea {
-  resize: none;
-}
-
-::selection { background: var(--pink); color: #fff; } 
 
 /*
-  9. Create a root stacking context
+9. Create a root stacking context
 */
 #root, #__next {
   isolation: isolate;
 }
+
+/* 
+10. remove resize on textarea
+*/
+
+textarea {
+  resize: none;
+}
+
+/* 
+11. update selection color
+*/
+::selection { 
+  background: var(--pink); color: #fff; 
+} 
+
+/* 
+12. update scrollbar
+*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--bg-grey);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
