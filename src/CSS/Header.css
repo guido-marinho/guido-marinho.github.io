@@ -3,6 +3,13 @@
   margin: 20px auto 0;
 }
 
+.cover-page img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 .profile-container {
   width: 37%;
   margin: 0 auto;
