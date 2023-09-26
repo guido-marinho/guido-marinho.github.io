@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import '../CSS/MainLayout.css';
 
 import About from '../pages/About.jsx';
+import Feed from '../pages/Feed.jsx';
 import FormContact from '../pages/FormContact.jsx';
 import Links from '../pages/Links.jsx';
 import Header from './Header.jsx';
@@ -48,7 +49,7 @@ export default function Main() {
         </div>
         
         {path === '/links' && <Links />}
-        {/* {path === '/' && <Feed />} */}
+        {path === '/' && <Feed />}
         {/* {path === '/projects' && <Projects />} */}
         {path === '/about' && <About />}
         {path === '/contact' && <FormContact />}
