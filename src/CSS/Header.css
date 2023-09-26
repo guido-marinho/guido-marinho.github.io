@@ -1,0 +1,325 @@
+.cover-page {
+  width: 40%;
+  margin: 20px auto 0;
+}
+
+.profile-container {
+  width: 37%;
+  margin: 0 auto;
+}
+
+/* div profile level 1 - start */
+.profile-level-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: absolute;
+  top: -70px;
+  left: 30px;
+}
+
+.profile-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  gap: 10px;
+}
+
+.message-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: var(--pink);
+  border: none;
+}
+
+.follow-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: var(--pink);
+  border: none;
+}
+
+.follow-img {
+  width: 28px;
+  height: 28px;
+}
+/* div profile level 1- end */
+
+/* div profile level 2 - start */
+.profile-level-2 {
+  margin-left: 20px;
+}
+
+.profile-name {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.verifed-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile-about {
+  font-size: 1.25rem;
+}
+/* div profile level 2 - end */
+
+/* div profile level 3 - start */
+.profile-level-3 {
+  display: flex;
+  color: grey;
+  justify-content: space-evenly;
+  margin: 30px auto;
+  height: 30px;
+  width: 80%;
+}
+
+.icon {
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 300,
+  'GRAD' 100,
+  'opsz' 30;
+  height: 10px;
+  width: 10px;
+}
+/* div profile level 3 - end */
+
+
+/* responsividade  */
+/* até 640 px */
+@media (max-width: 640px) {
+  .cover-page {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .profile-container {
+    width: 100%;
+  }
+
+  .profile-level-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .profile-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    width: 6rem;
+    height: 6em;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+  }
+  
+  .message-btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .follow-btn {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  }
+
+  .profile-buttons {
+    justify-content: space-around;
+  }
+
+  .profile-level-2 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-name {
+    font-size: 1.25rem;
+  }
+
+  .profile-about {
+    font-size: 0.75rem;
+  }
+
+  .profile-level-3 {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* de 641 px até 1007 px */
+@media (min-width: 641px) and (max-width: 1007px) {
+  .cover-page {
+    width: 80%;
+    margin: 5px auto;
+  }
+
+  .profile-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .profile-level-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  .profile-buttons {
+    justify-content: space-around;
+  }
+
+  .profile-level-2 {
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-level-3 {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* de 1008 px até 1280 px */
+@media (min-width: 1008px) and (max-width: 1280px) {
+  .cover-page {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .profile-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .profile-level-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+
+  .profile-buttons {
+    justify-content: space-around;
+  }
+
+  .profile-level-2 {
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-level-3 {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* de 1281 px até 1700 px ajusta imagem */
+@media (min-width: 1281px) and (max-width: 1733px) {
+  .profile-image {
+    width: 5rem;
+    height: 5rem;
+    top: -50px;
+  }
+
+  .message-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .follow-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .follow-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .verifed-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+    .profile-name {
+      font-size: 1.25rem;
+    }
+
+  .profile-about {
+    font-size: 1rem;
+  }
+
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.links:visited {
+  color: grey;
+}
