@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 import '../CSS/MainLayout.css';
 
-import Contact from '../pages/Contact.jsx';
+import FormContact from '../pages/FormContact.jsx';
 import Links from '../pages/Links.jsx';
 import Header from './Header.jsx';
 
@@ -51,7 +51,7 @@ export default function Main() {
         {/* {path === '/' && <Feed />} */}
         {/* {path === '/about' && <About />} */}
         {/* {path === '/projects' && <Projects />} */}
-        {path === '/contact' && <Contact />}
+        {path === '/contact' && <FormContact />}
       </main>
     </>
   );
