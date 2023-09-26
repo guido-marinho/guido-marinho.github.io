@@ -27,7 +27,7 @@
 }
 
 .active{
-  border-bottom: 3px solid  #CC0088;
+  border-bottom: 3px solid  var(--pink);
   color: white;
 }
 
