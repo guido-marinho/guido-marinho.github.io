@@ -2,12 +2,12 @@ import React from 'react';
 
 import '../CSS/Links.css';
 
-import github from '../images/github.png';
-import instagram from '../images/instagram.png';
-import linkedin from '../images/linkedin.png';
-import twitter from '../images/twitter.png';
-import whatsapp from '../images/whatsapp.png';
-import youtube from '../images/youtube.png';
+import github from '../public/github.png';
+import instagram from '../public/instagram.png';
+import linkedin from '../public/linkedin.png';
+import twitter from '../public/twitter.png';
+import whatsapp from '../public/whatsapp.png';
+import youtube from '../public/youtube.png';
 export default function Links() {
   return (
     <>

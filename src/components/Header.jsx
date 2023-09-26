@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/Header.css';
 
-import cover from '../images/cover.png';
-import linkedin from '../images/linkedin.png';
-import message from '../images/message.png';
-import profile from '../images/profile.png';
-import verifed from '../images/verifed.png';
+import cover from '../public/cover.png';
+import linkedin from '../public/linkedin.png';
+import message from '../public/message.png';
+import profile from '../public/profile.png';
+import verifed from '../public/verifed.png';
 
 export default function Header() {
 
