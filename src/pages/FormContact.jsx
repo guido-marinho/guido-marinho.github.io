@@ -2,6 +2,8 @@ import emailjs from '@emailjs/browser';
 import React, { useState } from 'react';
 import '../CSS/FormContact.css';
 
+import Swal from 'sweetalert2';
+
 export default function FormEmail() {
   const [name, setName] = useState('');
   const [email, setEmail] =  useState('');
@@ -21,7 +23,22 @@ export default function FormEmail() {
     emailjs.send('service_apv8wmj', 'template_feztn6c', templateParams, 'bh0epBqP8XrnRnwTl' )
       .then(({status, text}) => {
         console.log('SUCCESS!', status, text);
-        window.alert('Email enviado com sucesso!');
+        const Toast = Swal.mixin({
+          toast: true,
+          position: 'center',
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+          didOpen: (toast) => {
+            toast.addEventListener('mouseenter', Swal.stopTimer);
+            toast.addEventListener('mouseleave', Swal.resumeTimer);
+          }
+        });
+
+        Toast.fire({
+          icon: 'success',
+          title: 'E-Mail enviado com sucesso!'
+        });
       }).catch((err) => {
         console.log('FAILED...', err);
       });
