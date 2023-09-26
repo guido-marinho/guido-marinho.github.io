@@ -41,7 +41,6 @@
 }
 
 .form-email input:focus {
-  border-color: transparent;
   outline: transparent;
   border: 3px solid var(--pink);
   transition: border-color 0.5s ease-in-out;
@@ -54,7 +53,6 @@
 
 
 .form-email textarea:focus {
-  border-color: transparent;
   outline: transparent;
   border: 3px solid var(--pink);
   transition: border-color 0.5s ease-in-out;
