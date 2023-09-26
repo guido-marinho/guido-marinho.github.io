@@ -31,16 +31,20 @@
   border-radius: 50%;
 }
 
+.date-feed {
+  color: grey;
+  font-weight: 300;
+}
+
 .feelings-feed {
-  width: 100px;
-  height: 30px;
-  /* margin-left: 50px; */
+  width: 120px;
+  height: 25px;
   border-radius: 20px;
   background-color: #495057;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: -20px 0 10px 60px;
+  margin: -25px 0 5px 60px;
 }
 
 .post-feed {
