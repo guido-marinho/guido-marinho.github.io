@@ -25,7 +25,7 @@ export default function FormEmail() {
         console.log('SUCCESS!', status, text);
         const Toast = Swal.mixin({
           toast: true,
-          position: 'center',
+          position: 'top-end',
           showConfirmButton: false,
           timer: 3000,
           timerProgressBar: true,
