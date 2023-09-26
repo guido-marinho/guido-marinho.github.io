@@ -21,6 +21,7 @@ export default function FormEmail() {
     emailjs.send('service_apv8wmj', 'template_feztn6c', templateParams, 'bh0epBqP8XrnRnwTl' )
       .then(({status, text}) => {
         console.log('SUCCESS!', status, text);
+        window.alert('Email enviado com sucesso!');
       }).catch((err) => {
         console.log('FAILED...', err);
       });
