@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../CSS/Links.css';
 
+import certificado from '../public/certificado.png';
 import github from '../public/github.png';
 import instagram from '../public/instagram.png';
 import linkedin from '../public/linkedin.png';
@@ -14,11 +15,11 @@ export default function Links() {
       <nav className='nav-links'>
         
         <a href="https://www.linkedin.com/in/guilhermegattimarinho/" target="_blank" rel="noopener noreferrer">
-          <img src={ linkedin } alt="whatsapp-icon" />
+          <img src={ linkedin } alt="linkedin-icon" />
         </a>
         
         <a href="https://github.com/guilhermegattimarinho" target="_blank" rel="noopener noreferrer">
-          <img src={ github } alt="whatsapp-icon" className='github-img'/>
+          <img src={ github } alt="github-icon" className='github-img'/>
         </a>
         
         <a href="https://wa.me/+5535999423364" target="_blank" rel="noopener noreferrer">
@@ -26,15 +27,19 @@ export default function Links() {
         </a>
 
         <a href="https://www.youtube.com/channel/UCz1y3jdXPAIbqvDJgyZyG4w" target="_blank" rel="noopener noreferrer">
-          <img src={ youtube  } alt="whatsapp-icon" />
+          <img src={ youtube  } alt="youtube-icon" />
         </a>
 
         <a href="https://twitter.com/guimarinho_dev" target="_blank" rel="noopener noreferrer">
-          <img src={ twitter  } alt="whatsapp-icon" />
+          <img src={ twitter  } alt="twitter-icon" />
         </a>
 
         <a href="https://www.instagram.com/guimarinho7/" target="_blank" rel="noopener noreferrer">
-          <img src={ instagram  } alt="whatsapp-icon" />
+          <img src={ instagram  } alt="instagram-icon" />
+        </a>
+
+        <a href="https://www.credential.net/profile/guilhermegattimarinho/wallet#gs.5ocmow" target="_blank" rel="noopener noreferrer">
+          <img src={ certificado } alt="certificados-icon" />
         </a>
       </nav>
     </>
