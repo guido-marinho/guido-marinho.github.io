@@ -53,6 +53,10 @@ export default function Main() {
         {path === '/about' && <About />}
         {path === '/contact' && <FormContact />}
       </main>
+
+      <footer className='footer-container'>
+        <p> Guilherme Marinho © 2023</p>
+      </footer>
     </>
   );
 }
