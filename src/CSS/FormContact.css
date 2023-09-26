@@ -36,12 +36,16 @@
 .form-email input, textarea  {
   padding: 10px;
   border-radius: 5px;
+  border-color: transparent;
 
 }
 
 .form-email input:focus {
-  outline: none;
+  border-color: transparent;
+  outline: transparent;
   border: 3px solid var(--pink);
+  transition: border-color 0.5s ease-in-out;
+
 }
 
 .form-email input::placeholder {
@@ -50,8 +54,10 @@
 
 
 .form-email textarea:focus {
-  outline: none;
+  border-color: transparent;
+  outline: transparent;
   border: 3px solid var(--pink);
+  transition: border-color 0.5s ease-in-out;
 }
 
 .form-email textarea::placeholder {

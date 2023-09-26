@@ -49,6 +49,7 @@
   height: 40px;
   background-color: var(--pink);
   border: none;
+  cursor: pointer;
 }
 
 .follow-btn {
@@ -57,6 +58,7 @@
   height: 40px;
   background-color: var(--pink);
   border: none;
+  cursor: pointer;
 }
 
 .follow-img {
