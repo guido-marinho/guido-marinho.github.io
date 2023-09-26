@@ -1,0 +1,52 @@
+.ul-feed-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 60px;
+  list-style: none;
+  gap: 30px;
+}
+
+.card-feed {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card-feed:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.profile-feed {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.profile-feed-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.feelings-feed {
+  width: 100px;
+  height: 30px;
+  /* margin-left: 50px; */
+  border-radius: 20px;
+  background-color: #495057;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: -20px 0 10px 60px;
+}
+
+.post-feed {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 60px;
+}
