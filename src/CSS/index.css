@@ -65,6 +65,8 @@ textarea {
   resize: none;
 }
 
+::selection { background: var(--pink); color: #fff; } 
+
 /*
   9. Create a root stacking context
 */
