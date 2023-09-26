@@ -13,7 +13,7 @@ export default function About() {
       <br />
 
       <p>
-        Desde criança sempre fui facsinado por tecnologia e computadores. Em dezembro de 2022 resolvir dar um passo a mais e colocar toda essa paixão em prática, me matriculando no curso de Desenvolvimento Web Full Stack da Trybe.
+        Desde criança sempre fui fascinado por tecnologia e computadores. Em dezembro de 2022 resolvir dar um passo a mais e colocar toda essa paixão em prática, me matriculando no curso de Desenvolvimento Web Full Stack da Trybe.
       </p>
 
       <br />
