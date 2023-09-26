@@ -2,7 +2,9 @@
 
 :root {
   --pink: #CC0088;
-  --purple: #660066
+  --purple: #660066;
+  --bg-grey: #16191D;
+  --font-color: #F1F3F5;
 }
 
 /* adicione variaveis para o css aqui */
@@ -35,8 +37,8 @@ html, body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: #16191D;
-  color: #F1F3F5;
+  background-color: var(--bg-grey);
+  color: var(--font-color);
   font-family: 'Signika', sans-serif;
 }
 /*
