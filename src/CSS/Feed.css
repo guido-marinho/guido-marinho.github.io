@@ -8,6 +8,19 @@
   gap: 30px;
 }
 
+.orderby {
+
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: grey;
+  margin-bottom: -20px;
+}
+
+.orderby span {
+  color: var(--pink);
+  font-weight: 00;
+}
+
 .card-feed {
   width: 90%;
   display: flex;

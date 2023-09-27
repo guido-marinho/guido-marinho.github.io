@@ -9,6 +9,7 @@ export default function Feed() {
   return (
     <>
       <ul className='ul-feed-container'>
+        <p className='orderby'> • Ordenado por: <span>Relevância</span></p>
         {
           dataFeed.map((item) => (
             <li key={item.id} className='card-feed'>
