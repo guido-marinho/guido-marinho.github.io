@@ -1,4 +1,4 @@
-.form-container {
+.form-contact-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,6 +6,27 @@
     width: 100%;
     max-width: 500px;
     margin: 30px auto 0;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 10px;
+    background-color: var(--bg-oppacity);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.contact-container {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto 0;
     padding: 20px;
     border-radius: 5px;
     gap: 10px;
