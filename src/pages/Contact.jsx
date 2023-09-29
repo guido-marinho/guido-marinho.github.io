@@ -1,7 +1,7 @@
 import emailjs from '@emailjs/browser';
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
-import '../CSS/FormContact.css';
+import '../CSS/Contact.css';
 
 import linkedin from '../public/linkedin.png';
 import whatsapp from '../public/whatsapp.png';

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import '../CSS/MainLayout.css';
+import '../CSS/Home.css';
 
 import Header from '../components/Header.jsx';
 import About from './About.jsx';
+import Contact from './Contact.jsx';
 import Feed from './Feed.jsx';
-import FormContact from './FormContact.jsx';
 import Links from './Links.jsx';
 import Projects from './Projects.jsx';
 
@@ -53,7 +53,7 @@ export default function Main() {
         {path === '/links' && <Links />}
         {path === '/projects' && <Projects />}
         {path === '/about' && <About />}
-        {path === '/contact' && <FormContact />}
+        {path === '/contact' && <Contact />}
       </main>
 
       <footer className='footer-container'>
