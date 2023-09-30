@@ -17,15 +17,14 @@
 
 .orderby span {
   color: var(--pink);
-  font-weight: 00;
+  font-weight: 100;
 }
 
 .card-feed {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  padding: 20px;
 }
 
 .card-feed:hover {
