@@ -6,10 +6,10 @@ export default function App() {
   return (
     <Routes>
       <Route exact path="/" element={<Home />} />
-      <Route exact path="/links" element={<Home />} />
-      <Route exact path="/about" element={<Home />} />
-      <Route exact path="/projects" element={<Home />} />
-      <Route exact path="/contact" element={<Home />} />
+      <Route exact path="/:links" element={<Home />} />
+      <Route exact path="/:about" element={<Home />} />
+      <Route exact path="/:projects" element={<Home />} />
+      <Route exact path="/:contact" element={<Home />} />
     </Routes>
   );
 }
