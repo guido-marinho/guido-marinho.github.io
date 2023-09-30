@@ -9,7 +9,6 @@
 }
 
 .orderby {
-
   font-size: 0.9rem;
   font-weight: 300;
   color: grey;
@@ -22,7 +21,7 @@
 }
 
 .card-feed {
-  width: 90%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -67,4 +66,24 @@
   flex-direction: column;
   gap: 10px;
   margin-left: 60px;
+}
+
+@media screen and (max-width: 610px) {
+  .card-feed {
+    width: 100%;
+  }
+
+  .profile-feed {
+    gap: 5px;
+  }
+
+  .feelings-feed {
+    width: 100px;
+    height: 20px;
+    margin: -20px 0 5px 50px;
+  }
+
+  .post-feed {
+    margin-left: 50px;
+  }
 }

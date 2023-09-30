@@ -1,5 +1,5 @@
 .main-home {
-  width: 40%;
+  max-width: 600px;
   margin: 0 auto 0;
 }
 
@@ -26,14 +26,14 @@
   border-radius: 5px;
 }
 
-.active{
-  border-bottom: 3px solid  var(--pink);
+.active {
+  border-bottom: 3px solid var(--pink);
   color: white;
 }
 
 .links-main {
   text-decoration: none;
-  color:  grey;
+  color: grey;
 }
 
 .footer-container {
@@ -44,4 +44,24 @@
   color: grey;
 }
 
+@media screen and (max-width: 407px) {
+  .h3-header-main {
+    font-size: 0.8rem;
+  }
+}
 
+@media screen and (max-width: 451px) {
+  .h3-header-main {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .main-home {
+    width: 100%;
+  }
+
+  .h3-header-main {
+    font-size: 1rem;
+  }
+}

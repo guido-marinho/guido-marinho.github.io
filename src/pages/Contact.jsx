@@ -60,7 +60,7 @@ export default function FormEmail() {
 
   return (
     <div className='form-contact-container'>
-      <h3 className="title-contact">Por Whatsapp, Linkedin:</h3>
+      <h3 className="title-contact">Entre em contato via Whatsapp, Linkedin:</h3>
       
       <div className="contact-container">
         <img src={ whatsapp} alt="whatsapp-icon" />
