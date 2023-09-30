@@ -65,8 +65,8 @@ export default function Header() {
             <span className="material-symbols-outlined icon">
               link
             </span>
-            <Link to='/links' className='links'>
-            Links
+            <Link to='/links' className='links-header'>
+            /links
             </Link>
           </p>
           
