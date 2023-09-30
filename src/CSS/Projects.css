@@ -57,11 +57,12 @@
 }
 
 @media screen and (max-width: 610px) {
+  .ul-projects-container {
+    width: 100%;
+    padding: 30px;
+    margin-top: 0;
+  }
   .card-projects {
     width: 100%;
-  }
-
-  .card-projects:hover {
-    background-color: transparent;
   }
 }

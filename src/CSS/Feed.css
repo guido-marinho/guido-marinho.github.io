@@ -68,12 +68,14 @@
 }
 
 @media screen and (max-width: 610px) {
-  .card-feed {
+  .ul-feed-container {
     width: 100%;
+    padding: 30px;
+    margin-top: 0;
   }
 
-  .card-feed:hover {
-    background-color: var(--bg-grey);
+  .card-feed {
+    width: 100%;
   }
 
   .profile-feed {
