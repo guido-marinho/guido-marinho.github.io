@@ -60,4 +60,8 @@
   .card-projects {
     width: 100%;
   }
+
+  .card-projects:hover {
+    background-color: transparent;
+  }
 }
