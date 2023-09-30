@@ -81,7 +81,7 @@ export default function Header() {
             <span className="material-symbols-outlined icon">
               calendar_month
             </span>
-            Joined Feb 2023
+            Ingressou 2023
           </p>
 
         </div>
