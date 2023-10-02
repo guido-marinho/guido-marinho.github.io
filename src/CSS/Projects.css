@@ -13,8 +13,8 @@
   flex-direction: column;
   gap: 10px;
   width: 100%;
-
-  border-radius: 5px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .card-projects:hover {
@@ -63,6 +63,14 @@
     margin-top: 0;
   }
   .card-projects {
+    width: 100%;
+  }
+
+  .projects-img {
+    height: 200px;
+  }
+
+  .link-projects {
     width: 100%;
   }
 }
