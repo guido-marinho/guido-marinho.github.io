@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../CSS/Header.css';
+import './Header.css';
 
-import cover from '../images/cover.png';
-import profile from '../images/profile.png';
-import linkedin from '../public/linkedin.png';
-import message from '../public/message.png';
-import verifed from '../public/verifed.png';
+import cover from '../../images/cover.png';
+import profile from '../../images/profile.png';
+import linkedin from '../../public/linkedin.png';
+import message from '../../public/message.png';
+import verifed from '../../public/verifed.png';
 
 export default function Header() {
 
@@ -23,7 +23,7 @@ export default function Header() {
   };
   
   return (
-    <>
+    <header className='header-container'>
       <div className='cover-page'>
         <img src={ cover } alt="cover" />
       </div>
@@ -87,6 +87,6 @@ export default function Header() {
         </div>
         
       </div>
-    </>
+    </header>
   );
 }

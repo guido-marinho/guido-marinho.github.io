@@ -1,13 +1,15 @@
 import React from 'react';
 import '../CSS/Feed.css';
 
+
 import dataFeed from '../api/feed';
 
+import Main from '../components/Main/Main';
 import profile from '../images/profile.png';
 
 export default function Feed() {
   return (
-    <>
+    <Main>
       <ul className='ul-feed-container'>
         <p className='orderby'> • Ordenado por: <span>Relevância</span></p>
         {
@@ -51,6 +53,6 @@ export default function Feed() {
           ))
         }
       </ul>
-    </>
+    </Main>
   );
 }
