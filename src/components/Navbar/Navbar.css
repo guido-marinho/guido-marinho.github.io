@@ -4,7 +4,7 @@
   justify-content: space-around;
 }
 
-.h3-nav-main {
+.h3-header-main {
   font-size: 1.2rem;
   font-weight: 700;
   padding: 0 1rem;
@@ -26,6 +26,11 @@
   color: white;
 }
 
+.links-main {
+  text-decoration: none;
+  color: grey;
+}
+
 @media screen and (max-width: 407px) {
   .h3-header-main {
     font-size: 0.8rem;
@@ -39,10 +44,6 @@
 }
 
 @media screen and (max-width: 610px) {
-  .main-home {
-    width: 100%;
-  }
-
   .h3-header-main {
     font-size: 1rem;
   }

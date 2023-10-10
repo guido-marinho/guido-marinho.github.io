@@ -2,3 +2,9 @@
   max-width: 600px;
   margin: 0 auto 0;
 }
+
+@media screen and (max-width: 610px) {
+  .main-container {
+    width: 100%;
+  }
+}
