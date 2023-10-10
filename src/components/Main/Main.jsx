@@ -1,16 +1,16 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import '../CSS/Home.css';
+import './Main.css';
 
-import Footer from './Footer';
-import Header from './Header';
-import Navbar from './Navbar';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
 
 export default function Main({children}) {
   return (
     <>
       <Header />
-      <main>
+      <main className='main-container'>
         <Navbar />
         <section>
           {children}

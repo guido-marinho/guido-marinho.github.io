@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import '../CSS/Home.css';
-
+import './Navbar.css';
 export default function Navbar()  {
 
   const path = useLocation().pathname;
   
   return (
-    <nav className='header-main'>
+    <nav className='nav-container'>
       <Link to='/' className='links-main'>
         <h3
           className={`h3-header-main ${path === '/' ? 'active' : ''}`}>

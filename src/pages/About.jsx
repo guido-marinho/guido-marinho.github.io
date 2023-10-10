@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/About.css';
-import Main from '../components/Main';
+import Main from '../components/Main/Main';
 
 export default function About() {
   return (

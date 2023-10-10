@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 import '../CSS/Contact.css';
 
-import Main from '../components/Main';
+import Main from '../components/Main/Main';
 import linkedin from '../public/linkedin.png';
 import whatsapp from '../public/whatsapp.png';
 

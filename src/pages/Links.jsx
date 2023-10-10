@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../CSS/Links.css';
 
-import Main from '../components/Main';
+import Main from '../components/Main/Main';
 import certificado from '../public/certificado.png';
 import github from '../public/github.png';
 import instagram from '../public/instagram.png';

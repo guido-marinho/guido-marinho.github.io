@@ -2,7 +2,7 @@ import React from 'react';
 import '../CSS/Projects.css';
 
 import dataProjects from '../api/projects';
-import Main from '../components/Main';
+import Main from '../components/Main/Main';
 
 export default function Projects() {
   return (
