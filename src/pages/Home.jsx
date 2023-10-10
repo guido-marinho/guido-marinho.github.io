@@ -56,9 +56,7 @@ export default function Main() {
         {path === '/contact' && <Contact />}
       </main>
 
-      <footer className='footer-container'>
-        <p> Guilherme Marinho © 2023</p>
-      </footer>
+
     </>
   );
 }

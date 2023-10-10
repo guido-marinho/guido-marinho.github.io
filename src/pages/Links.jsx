@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../CSS/Links.css';
 
+import Main from '../components/Main';
 import certificado from '../public/certificado.png';
 import github from '../public/github.png';
 import instagram from '../public/instagram.png';
@@ -11,7 +12,7 @@ import whatsapp from '../public/whatsapp.png';
 import youtube from '../public/youtube.png';
 export default function Links() {
   return (
-    <>
+    <Main>
       <nav className='nav-links'>
         
         <a href="https://www.linkedin.com/in/guilhermegattimarinho/" target="_blank" rel="noopener noreferrer">
@@ -42,6 +43,6 @@ export default function Links() {
           <img src={ certificado } alt="certificados-icon" />
         </a>
       </nav>
-    </>
+    </Main>
   );
 }

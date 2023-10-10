@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/Header.css';
+import '../CSS/Home.css';
 
 import cover from '../images/cover.png';
 import profile from '../images/profile.png';
@@ -23,7 +24,7 @@ export default function Header() {
   };
   
   return (
-    <>
+    <header>
       <div className='cover-page'>
         <img src={ cover } alt="cover" />
       </div>
@@ -87,6 +88,6 @@ export default function Header() {
         </div>
         
       </div>
-    </>
+    </header>
   );
 }

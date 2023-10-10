@@ -2,53 +2,57 @@ import React from 'react';
 import '../CSS/Projects.css';
 
 import dataProjects from '../api/projects';
+import Main from '../components/Main';
 
 export default function Projects() {
   return (
-    <ul className="ul-projects-container">
-      {
-        dataProjects.map((item) => (
-          <li key={item.id} className="card-projects">
+    <Main>
 
-            <h2 className="title-projects">
-              {item.title}
-            </h2>
+      <ul className="ul-projects-container">
+        {
+          dataProjects.map((item) => (
+            <li key={item.id} className="card-projects">
+
+              <h2 className="title-projects">
+                {item.title}
+              </h2>
             
-            <p className="tech-projects">
+              <p className="tech-projects">
               Tecnologias utilizadas: <span>{item.tech}</span>
-            </p>
+              </p>
             
-            <p className="description-projects">
-              {item.description}
-            </p>
+              <p className="description-projects">
+                {item.description}
+              </p>
 
-            <a 
-              href={item.gitURL} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="link-projects"
-            >
+              <a 
+                href={item.gitURL} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="link-projects"
+              >
                 Código fonte
-            </a>
-            <a 
-              href={item.deployURL} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="link-projects"
-            >
+              </a>
+              <a 
+                href={item.deployURL} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="link-projects"
+              >
                 Deploy da aplicação
-            </a>
+              </a>
 
-            <img 
-              src={item.image} 
-              alt={`${item.title}-image`} 
-              className="projects-img"
-            />
+              <img 
+                src={item.image} 
+                alt={`${item.title}-image`} 
+                className="projects-img"
+              />
 
-          </li>
+            </li>
 
-        ))
-      }
-    </ul>
+          ))
+        }
+      </ul>
+    </Main>
   );
 }
