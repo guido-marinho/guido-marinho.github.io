@@ -4,7 +4,7 @@
   justify-content: space-around;
 }
 
-.h3-header-main {
+.h3-nav {
   font-size: 1.2rem;
   font-weight: 700;
   padding: 0 1rem;
@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.h3-header-main:hover {
+.h3-nav:hover {
   background-color: var(--bg-oppacity);
   border-radius: 5px;
 }
@@ -32,19 +32,19 @@
 }
 
 @media screen and (max-width: 407px) {
-  .h3-header-main {
+  .h3-nav {
     font-size: 0.8rem;
   }
 }
 
 @media screen and (max-width: 451px) {
-  .h3-header-main {
+  .h3-nav {
     font-size: 0.9rem;
   }
 }
 
 @media screen and (max-width: 610px) {
-  .h3-header-main {
+  .h3-nav {
     font-size: 1rem;
   }
 }
